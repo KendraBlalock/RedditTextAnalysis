@@ -20,7 +20,7 @@ library(htmlwidgets)
 
 ## Introduction
 
-<https://www.reddit.com/> provides a great opportunity to play around with text mining skills on any subject matter you find interesting. Subreddits topics range from politics to pictures of cats who look like they have jobs. 
+<https://www.reddit.com/> provides a great opportunity to play around with text mining skills on any subject matter you find interesting. Subreddit topics range from politics to pictures of cats who look like they have jobs. 
 
 To try out some text mining R packages, I pulled down comments from r/Christianity which has over 235,000 members at time of writing, <https://www.reddit.com/r/Christianity/>, and r/atheism which has over 2,600,000 members at time of writing, <https://www.reddit.com/r/atheism/>. I was interested in seeing how the sentiment of the text changed when those posting comments on the r/Christianity had discussions that involved the word "atheists" compared to when their discussions didn't involve the word "atheists". Additionally, I wanted to see the reverse for
 those posting comments on r/atheism using the word "Christians".      
@@ -173,8 +173,8 @@ After exporting both word clouds from a previous run, I pulled them into Adobe I
 
 ## Final Considerations
 
-This interesting initial dive into Redditt using some basic text mining packages in R leaves a number of avenues for additional follow-up. The first and most striking is that the sentiment analysis code marked "atheism" as a negative term. This could affect the average sentiment scores and be resolved by removing the word from the analysis and rerunning. However, the more interesting aspect is that the analysis program itself reflects a negative connotation around atheism that I had expected to inn on the r/Christianity forum. 
+This interesting initial dive into Redditt using some basic text mining packages in R leaves a number of avenues for additional follow-up. The first and most striking is that the sentiment analysis code marked "atheism" as a negative term. This could affect the average sentiment scores and be resolved by removing the word from the analysis and rerunning. However, the more interesting aspect is that the analysis program itself reflects a negative connotation around atheism that I had expected to find in the r/Christianity forum. 
 
 Another avenue that would be very interesting to explore is how the sentiments may differ in other subreddits. I chose the largest two subreddits, but it may be that these tend to have more moderate discussions than some smaller ones such as r/Christians, r/Christian, r/ChristianMusic, r/TrueChristian, r/Reformed, r/FundieSnark, r/atheismrebooted, r/TrueAtheism, r/Atheists, r/atheistvids, r/AtheistHavens, and so forth. 
 
-Of course, one of the negatives of such a high overview analysis is that it misses the intricacies of the statements made on each forum such as "Atheists have killed and persecuted just as many people as any religion" and "most christians do not understand science." More in depth review qualitative review of the data would be fascinating.
+Of course, one of the negatives of such a high overview analysis is that it misses the intricacies of the statements made on each forum such as "Atheists have killed and persecuted just as many people as any religion" and "most christians do not understand science." A more in-depth  qualitative review of the data would be fascinating.
