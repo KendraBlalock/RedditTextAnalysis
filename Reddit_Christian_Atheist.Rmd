@@ -169,7 +169,7 @@ webshot("tmp.html","AtheistWords.png", delay =5, vwidth = 863, vheight=464)
 
 After exporting both word clouds from a previous run, I pulled them into Adobe Illustrator and constructed one cohesive graphic. *Note: the words are slightly different in the below figure as the above code was rerun to knit the .Rmd after work was already completed on this picture.*  
 
-![](Reddit_Perspective.png)
+![](Reddit_Gulf_Perspective_v2_Perspective.png)
 
 ## Final Considerations
 
